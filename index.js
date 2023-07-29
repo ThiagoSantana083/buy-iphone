@@ -8,31 +8,31 @@ let white = document.querySelector(".white");
 let red = document.querySelector(".red");
 
 green.addEventListener("click", () => {
-    circle.style.background = "#445c42"
     cell.setAttribute("src", "img/green.png")
+    circle.style.background = "#445c42"
 });
 
 pink.addEventListener("click", () => {
-    circle.style.background = "#f8ddd6"
     cell.setAttribute("src", "img/pink.png")
+    circle.style.background = "#f8ddd6"
 });
 
 blue.addEventListener("click", () => {
-    circle.style.background = "#225f7e"
     cell.setAttribute("src", "img/blue.png")
+    circle.style.background = "#225f7e"
 });
 
 black.addEventListener("click", () => {
-    circle.style.background = "#192028"
     cell.setAttribute("src", "img/black.png")
+    circle.style.background = "#192028"
 }); 
 
 white.addEventListener("click", () => {
-    circle.style.background = "#f7f2ee"
     cell.setAttribute("src", "img/white.png")
+    circle.style.background = "#f7f2ee"
 });
 
 red.addEventListener("click", () => {
-    circle.style.background = "#ae0617"
     cell.setAttribute("src", "img/red.png")
+    circle.style.background = "#ae0617"
 });
