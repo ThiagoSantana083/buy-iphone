@@ -1,0 +1,172 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+
+body {
+    background-color: #e8e6e7;
+    overflow: hidden;
+}
+
+/* HEADER DA PÁGINA */
+header {
+    padding: 20px 70px;
+    background: #1d1d1f;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.navbar .logo {
+    width: 50px;
+}
+
+.navbar ul {
+    display: flex;
+    align-items: center;
+    gap: 60px;
+}
+
+.navbar ul li a {
+    font-weight: 600;
+    color: #888;
+    padding-bottom: 4px;
+    transition: all 0.5s ease-in-out;
+}
+
+.navbar .check {
+    border-bottom: 1px solid #fff;
+    color: #fff;
+}
+
+.navbar ul li a:hover {
+    color: #fff;
+    border-bottom: 1px solid #fff;
+}
+
+/* MAIN SECTION DA PAGINA */
+
+main section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 5rem 3rem 5rem;
+}
+
+.main-text img {
+    width: 15rem;
+    margin-bottom: 3vh;
+}
+
+.main-text h3 {
+    font-size: 3.5rem;
+    margin-bottom: 2rem;
+}
+
+.main-text p {
+    width: 40rem;
+    margin-bottom: 1.5rem;
+    margin-right: 5rem;
+}
+
+.main-text h5 {
+    color: #888;
+    font-size: 1rem;
+    margin-bottom: 2rem;
+}
+
+.main-text .btn-buy {
+    padding: 10px 25px;
+    border-radius: 20px;
+    color: #FFF;
+    background-color: #0071e3;
+    border-style: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+.main-text .btn-buy:hover {
+    transition: all 0.5s ease-in-out;
+    background-color: #0064c8a8;
+}
+
+.main-text .text h6 {
+    font-size: 1.2rem;
+    color: #444;
+    margin-top: 2rem;
+    margin-bottom: 0.5rem;
+    padding-bottom: 0.4rem;
+}
+
+.colors {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 4rem;
+}
+
+.colors span {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    cursor: pointer;
+    box-shadow: 2px 2px #888;
+}
+
+.colors span:hover {
+    opacity: .80;
+    transition: all 0.5s ease-in-out;
+}
+
+.green {
+    background: #384937;
+}
+
+.pink {
+    background: #f8ddd6;
+}
+
+.blue {
+    background: #225f7e;
+}
+
+.black {
+    background: #192028;
+}
+
+.white {
+    background: #f7f2ee;
+}
+
+.red {
+    background: #ae0617;
+}
+
+.cell {
+    transition: all 1s ease-in-out;
+    z-index: 100;
+    margin-bottom: 2rem;
+}
+
+.cell img {
+    width: 390px;
+    margin-top: 2rem;
+    transform: rotate(-10deg);
+}
+
+.circle {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #445c42;
+    clip-path: circle(900px at right 1000px);
+}
