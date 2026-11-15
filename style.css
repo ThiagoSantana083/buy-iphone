@@ -170,3 +170,13 @@ main section {
     background: #445c42;
     clip-path: circle(900px at right 1000px);
 }
+
+/* AVISO DE PROJETO DE ESTUDO */
+.disclaimer {
+    position: fixed;
+    left: 5rem;
+    bottom: 12px;
+    z-index: 200;
+    font-size: 0.75rem;
+    color: #777;
+}
